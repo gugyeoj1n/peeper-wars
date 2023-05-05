@@ -1,518 +1,529 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1683089189969819, "dur":1429, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089189971252, "dur":76, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1683089189971337, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1683089189971358, "dur":478, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1683089189971876, "dur":868, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089189972744, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190380751, "dur":74, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190380825, "dur":179, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381004, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381009, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381034, "dur":38, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381072, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381083, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381086, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381094, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381097, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381106, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381108, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381116, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381119, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381127, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381130, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381142, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381157, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190381190, "dur":2139, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1683089189972648, "dur":149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189972797, "dur":4810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189977608, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1683089189977690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189983890, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1683089189985392, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1683089189985449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189985520, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1683089189986658, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189986712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189986963, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189988420, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189988472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189988637, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189990462, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189990508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189990517, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189991964, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189992047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189992057, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189993676, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189993725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189993734, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189995188, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189995235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189995244, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189996333, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189996382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189996389, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189997471, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189997519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189997525, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189999067, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089189999114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089189999121, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190000287, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190000338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190000346, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190002344, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190002389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190002397, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190004174, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190004227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190004237, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190005990, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190006049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190006060, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190008675, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190008814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190008821, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190011418, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190011462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190011469, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190014408, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190014453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190014463, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190017212, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190017265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190017273, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190020150, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190020202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190020210, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190021626, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190021962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190021970, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190023727, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190023774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190023780, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190025799, "dur":90410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190116214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190116224, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190117532, "dur":197162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190314699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683089190314730, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683089190315727, "dur":65010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189972530, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189972770, "dur":4838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189977608, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1683089189977691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189984111, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1683089189985372, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1683089189985427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189985497, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1683089189989128, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189989179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189989318, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189990807, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189990863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189990872, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189992951, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189993002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189993009, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189994770, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189994822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189994831, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189996837, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189996880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189996887, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189998512, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089189998558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089189998569, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190000302, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190000348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190000355, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190001729, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190001771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190001778, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190003636, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190004030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190004038, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190006152, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190006202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190006208, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190011161, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190011203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190011210, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190013760, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190013881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190013889, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190016790, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190016843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190016851, "dur":6591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190023497, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190023547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190023557, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190025368, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190025419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190025427, "dur":74393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190099864, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190099908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190099915, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190101937, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190102016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190102035, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190103211, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190103256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190103264, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190104539, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190104586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190104594, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190105562, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190105609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190105616, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190106633, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190106677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190106686, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190108739, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190108781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190108788, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190110791, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190110837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190110845, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190112440, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190112487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190112494, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190113615, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190113663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190113672, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190117035, "dur":262479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190379518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683089190379539, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683089190380716, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1683089190380717, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089189972637, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089189972789, "dur":4821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089189977610, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1683089189977700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089189985799, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1683089189987808, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1683089189987914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089189988407, "dur":19647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1683089190008109, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190008162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190008171, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190012352, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190012394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190012403, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190014729, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190014784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190014792, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190019071, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190019121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190019129, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190021593, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190021955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190021965, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190024284, "dur":262542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190286831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683089190286841, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683089190287991, "dur":92759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189972821, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189972822, "dur":4778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189977600, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1683089189977697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189984527, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1683089189986290, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1683089189986338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189986348, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1683089189987516, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1683089189987622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089189987630, "dur":13438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1683089190001115, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190001175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190001185, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190002458, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190002508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190002515, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190004346, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190004394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190004402, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190006358, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190006445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190006451, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190010308, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190010357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190010392, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190013377, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190013423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190013456, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190015254, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190015304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190015315, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190021027, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190021083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190021091, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190023880, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190023938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190023944, "dur":75263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190099259, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190099309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190099319, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190100520, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190100893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190100902, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190102243, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190102296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190102303, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190103730, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190103776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190103783, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190105257, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190105307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190105315, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190106628, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190106678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190106686, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190109000, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190109047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190109054, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190112345, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190112393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190112401, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190113855, "dur":189066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190302925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683089190302932, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683089190303888, "dur":76847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189972491, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189972761, "dur":4838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189977600, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1683089189977697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189985258, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1683089189986390, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1683089189986444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189986455, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1683089189987640, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars.exe" }}
-,{ "pid":12345, "tid":5, "ts":1683089189988366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189988371, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars.exe" }}
-,{ "pid":12345, "tid":5, "ts":1683089189989743, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189989799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189989832, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189990931, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189990987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189990996, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189993401, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189993454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189993465, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189996136, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189996190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189996197, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189997569, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189997676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189997684, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189999352, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089189999401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089189999408, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190000716, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190000766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190000773, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190002009, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190002059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190002067, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190003209, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190003257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190003265, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190004435, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190004492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190004501, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190006327, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190006373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190006379, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190010701, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190010749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190010755, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190012369, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190012415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190012422, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190015068, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190015117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190015124, "dur":4268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190019611, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190019720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190019729, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190022026, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190022082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190022088, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190025144, "dur":97882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190123031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190123041, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190124315, "dur":89003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190213324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190213334, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190214416, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190214462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190214471, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190215562, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190215614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190215622, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190217984, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190218031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190218048, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683089190219169, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1683089190219213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190219273, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1683089190220496, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190220540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190220547, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190221979, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190222019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190222026, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190224717, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190224765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190224773, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190229570, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190229617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190229625, "dur":8400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190249885, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190250050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190250059, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190251206, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190251252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190251260, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190252394, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190252439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190252474, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190254640, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1683089190254782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190254790, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1683089190255813, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1683089190256802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190256810, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1683089190257914, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190257970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190257978, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190259219, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190259265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190259273, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190260932, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level4.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190260984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190260992, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level4.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190262069, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level4" }}
-,{ "pid":12345, "tid":5, "ts":1683089190262114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190262121, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level4" }}
-,{ "pid":12345, "tid":5, "ts":1683089190263120, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190263165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190263194, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190264191, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1683089190264234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190264241, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1683089190265185, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190265230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190265237, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190266946, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1683089190266991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190266998, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1683089190268143, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190268188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190268194, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190269464, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1683089190269514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190269522, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1683089190270612, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190270658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190270665, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683089190271767, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1683089190271844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190271851, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1683089190272870, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190272918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190272926, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683089190274002, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1683089190274048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190274056, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1683089190275150, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1683089190275337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683089190275345, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1683089190276320, "dur":104417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189972602, "dur":176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189972778, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189977560, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1683089189977682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189979523, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1683089189981505, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1683089189981550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189981723, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1683089189982887, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1683089189982945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189983020, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1683089189984442, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1683089189984490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189985068, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1683089189986708, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089189986823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089189986973, "dur":36474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089190023499, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089190023552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089190023559, "dur":36676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089190060296, "dur":281360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089190341659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683089190341666, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683089190342898, "dur":37838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189972416, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189972754, "dur":4855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189977610, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1683089189977700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189985285, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1683089189986632, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1683089189986680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189986687, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1683089189988195, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189988287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189988627, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189990596, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189990638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189990644, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189992663, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189992805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189992843, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189995828, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189995897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189995916, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189997097, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189997146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089189997152, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089189998648, "dur":216165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190214816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089190214824, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190215800, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190215844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089190215851, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190218143, "dur":109882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190328029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683089190328036, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683089190329024, "dur":51715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189972725, "dur":21, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189972746, "dur":4803, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189977560, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1683089189977603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189978304, "dur":372, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1683089189978680, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1683089189978736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189979087, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1683089189981284, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1683089189981329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189981715, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1683089189982928, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1683089189982981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189983029, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1683089189984508, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1683089189984567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189984797, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1683089189987193, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089189987300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089189987307, "dur":36813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089190024167, "dur":83674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089190107845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089190107855, "dur":9878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089190117778, "dur":177503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089190295287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683089190295296, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/peeper-wars/build/Peeper Wars_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683089190296340, "dur":84398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683089190385158, "dur":2904, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1683271876056495, "dur":1714, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876058217, "dur":124, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683271876058354, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683271876058374, "dur":357, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683271876058756, "dur":616, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876059372, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488179, "dur":168, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488347, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488361, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488364, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488372, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488375, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488383, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488386, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488394, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488397, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488405, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488408, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488416, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488419, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488427, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488430, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488439, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488458, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876488485, "dur":1980, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683271876059049, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876059384, "dur":4899, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876064295, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683271876064298, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876064499, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683271876064504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876070436, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683271876071749, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683271876071898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876071968, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683271876073406, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683271876073558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876073563, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683271876075397, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683271876075576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876075583, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683271876077708, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683271876077819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876077825, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683271876082424, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876082484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876082490, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876084381, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876084443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876084450, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876086428, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876086483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876086489, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876090181, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876090238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876090245, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876094169, "dur":187903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876282077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876282086, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876283453, "dur":106745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876390204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876390212, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683271876391393, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683271876391442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876391504, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683271876392697, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876392742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876392749, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876394322, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876394367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876394373, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876395278, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876395321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876395326, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876396230, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876396273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876396278, "dur":8237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876404558, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876404602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876404608, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876405578, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876405628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876405634, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876406630, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876406673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876406678, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876408954, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876408995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876409002, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876409934, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876409976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876409982, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876411027, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1683271876411223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876411229, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1683271876412244, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1683271876413120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876413128, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1683271876414157, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876414201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876414208, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876415472, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876415517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876415524, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876417339, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876417418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876417424, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876418637, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1683271876418681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876418687, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1683271876419694, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876419738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876419744, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876420965, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1683271876421014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876421020, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1683271876421941, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876421981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876421986, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876422966, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1683271876423011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876423016, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1683271876423954, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876424069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876424076, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876425239, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1683271876425288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876425294, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1683271876426261, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876426307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876426313, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876427577, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1683271876427622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876427628, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1683271876428715, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876428761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876428767, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683271876430936, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1683271876430992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876430998, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1683271876431969, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876432091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876432097, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683271876433204, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1683271876433248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876433255, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1683271876434266, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1683271876434406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683271876434412, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1683271876435731, "dur":52444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876059324, "dur":74, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876059398, "dur":4890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876064295, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683271876064497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876066236, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683271876069374, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683271876069890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876070215, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683271876072045, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683271876072164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876072172, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683271876074174, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683271876074351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876074360, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683271876076152, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876076265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876076414, "dur":12011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876088471, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876088567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876088597, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876091536, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876091590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876091596, "dur":5510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876097163, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876097232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876097241, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876099937, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876099983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876099989, "dur":10952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876110993, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876111051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876111056, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876113230, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876113276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876113283, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876116133, "dur":196708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876312846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683271876312855, "dur":130496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683271876443400, "dur":44759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876059195, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876059390, "dur":4899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876064295, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683271876064505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876076949, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683271876078727, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683271876079422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876079428, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683271876081008, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876081058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876081278, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876082753, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876082799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876082830, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876085179, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876085224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876085231, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876086472, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876086526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876086532, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876088783, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876088835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876088840, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876091762, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876091915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876091924, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876094238, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876094474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876094505, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876097814, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876097863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876097869, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876100745, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876100825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876100833, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876103283, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876103327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876103333, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876105216, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876105270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876105276, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876106942, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876106995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876107001, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876108587, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876108633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876108639, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876110791, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876110835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876110841, "dur":5910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876116819, "dur":206941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876323765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876323773, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876325698, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876325742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876325750, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876326780, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876326823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876326833, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876327799, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876327840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876327847, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876330252, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876330297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876330304, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876331486, "dur":119673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876451163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683271876451173, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683271876452575, "dur":35583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876059464, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876059464, "dur":4861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876064326, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683271876064522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876077225, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683271876080500, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876080557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876080774, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876082400, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876082445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876082451, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876083987, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876084035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876084046, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876085903, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876085952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876085959, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876089500, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876089571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876089584, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876092756, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876092828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876092837, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876095721, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876095780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876095790, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876098502, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876098634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876098642, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876101553, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876101603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876101609, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876103782, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876103831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876103838, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876107000, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876107047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876107053, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876110429, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876110499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876110506, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876112719, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876112766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876112771, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876115748, "dur":56935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876172689, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876172702, "dur":27548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876200300, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876200345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876200352, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876203028, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876203076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876203083, "dur":6187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876209320, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876209387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876209394, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876210549, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876210603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876210609, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876211755, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876211804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876211810, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876216291, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876216346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876216354, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876217343, "dur":217923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876435272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683271876435401, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683271876436727, "dur":51445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876059599, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876059600, "dur":4733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876064334, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683271876064606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876089223, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683271876092123, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876092222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876092227, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876094157, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876094216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876094225, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876097154, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876097203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876097210, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876100634, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876100686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876100692, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876102500, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876102545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876102551, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876104958, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876105004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876105043, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876106528, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876106571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876106577, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876108191, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876108245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876108258, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876110077, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876110124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876110130, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876112510, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876112561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876112569, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876115373, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876115426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876115432, "dur":10070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876125548, "dur":332811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876458364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683271876458372, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683271876459838, "dur":28321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876059736, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876059736, "dur":4548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876064295, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1683271876064506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876071067, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1683271876072635, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683271876072761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876072824, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683271876074503, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1683271876074702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876074708, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1683271876076046, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876076169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876076383, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876079217, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683271876079332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876079856, "dur":8829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683271876088730, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876088795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876088804, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876092617, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876092674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876092681, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876096432, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876096485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876096493, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876099579, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876099733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876099740, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876102158, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876102209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876102216, "dur":4569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876106831, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876106876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876106882, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876110063, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876110108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876110115, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876112488, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876112541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876112547, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876114612, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876114658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876114664, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876116530, "dur":106671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876223211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876223249, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876224560, "dur":210076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876434639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683271876434646, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683271876435766, "dur":52397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876059971, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876059971, "dur":4355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876064326, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683271876064501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876065934, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683271876069405, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683271876069900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876070207, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683271876072074, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683271876072206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876072597, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683271876074162, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683271876074353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876074360, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683271876076200, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876076304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876076308, "dur":33070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876109489, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876109544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876109550, "dur":5636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876115232, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876115283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876115291, "dur":73948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876189286, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876189332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876189339, "dur":9402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876198784, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876198827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876198834, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876201201, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876201244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876201250, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876203028, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876203085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876203091, "dur":10652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876213790, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876213835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876213842, "dur":69469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876283369, "dur":187938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876471312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683271876471320, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683271876472552, "dur":15620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876059840, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876059840, "dur":4494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876064335, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683271876064532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876089103, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683271876092071, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876092115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876092121, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876096048, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876096103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876096109, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876099561, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876099639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876099645, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876102187, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876102234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876102239, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876104323, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876104388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876104404, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876106399, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876106471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876106478, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876108031, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876108114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876108122, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876109842, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876109896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876109902, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876111956, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876112047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876112054, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876114418, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876114484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876114491, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876116622, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876116696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876116703, "dur":80881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876197635, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876197696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876197704, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876203452, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876203494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876203499, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876206536, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876206598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876206606, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876209774, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876209821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876209830, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876210900, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876210946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876210954, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876214155, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876214206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876214213, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876216946, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876217004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876217014, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876218082, "dur":268869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876486955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683271876486962, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/Peeper Wars_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683271876488139, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1683271876488140, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683271876492070, "dur":1822, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

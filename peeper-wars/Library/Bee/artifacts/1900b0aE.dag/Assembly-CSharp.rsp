@@ -382,6 +382,7 @@
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerNameInputField.cs"
 "Assets/Scripts/PlayerUI.cs"
+"Assets/Scripts/StartToLauncher.cs"
 -langversion:9.0
 
 /deterministic
