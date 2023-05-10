@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
@@ -11,6 +13,17 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     [Tooltip("The maximum number of players per room. New room will be created when a room is full.")]
     [SerializeField] private byte maxPlayersPerRoom = 4;
+
+    #endregion
+    // -----------------------------------------
+
+    // -----------------------------------------
+    #region MongoDB
+
+    private const string MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@peeper-wars.76mjqw0.mongodb.net/";
+    private const string DB_NAME = "Main";
+    private MongoClient mongoClient;
+    private IMongoDatabase db;
 
     #endregion
     // -----------------------------------------
@@ -49,6 +62,9 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         progressLabel.SetActive(false);
         controlPanel.SetActive(true);
+
+        mongoClient = new MongoClient(MONGO_URI);
+        db = mongoClient.GetDatabase(DB_NAME);
     }
 
     #endregion
@@ -59,6 +75,14 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void Connect()
     {
+        var users = db.GetCollection<BsonDocument>("Users");
+
+        var userData = new BsonDocument
+        {
+            { "name", PhotonNetwork.NickName }
+        };
+        users.InsertOne(userData);
+
         isConnecting = true;
         progressLabel.SetActive(true);
         controlPanel.SetActive(false);

@@ -19,8 +19,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -33,10 +31,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -165,7 +161,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6210}
     - Class: 114
-      Script: {instanceID: 8088}
+      Script: {instanceID: 8090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -518,11 +514,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7778}
     - Class: 114
-      Script: {instanceID: 8070}
+      Script: {instanceID: 8062}
     - Class: 114
-      Script: {instanceID: 8088}
+      Script: {instanceID: 8072}
     - Class: 114
-      Script: {instanceID: 25600}
+      Script: {instanceID: 8090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2230,6 +2226,12 @@ ScriptsOnlyBuild:
     className: PhotonTeamsManager
   - hash:
       serializedVersion: 2
+      Hash: 82ff1efdbbe131a054f37a25826d3bf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartToLauncher
+  - hash:
+      serializedVersion: 2
       Hash: 1bbce36c26e06daa73238c07c42b2bc9
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
@@ -2252,12 +2254,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 82ff1efdbbe131a054f37a25826d3bf6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartToLauncher
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity
@@ -2266,4 +2262,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Room for 2.unity
   - Assets/Scenes/Room for 3.unity
   - Assets/Scenes/Room for 4.unity
-  playerPath: "C:/Users/\uAD6C\uACA8\uC9D5/Desktop/Peeper Wars.exe"
+  playerPath: "C:/Users/\uAD6C\uACA8\uC9D5/Desktop/test/Peeper Wars.exe"
