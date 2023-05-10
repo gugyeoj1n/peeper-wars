@@ -1,7 +1,7 @@
 * * *
 # PEEPER-WARS : stare to win
 ### - Version 1.0.0-alpha
-### made with Unity 2021 & PUN2 Realtime
+### made with Unity 2021 & PUN2 Realtime & MongoDB
 * * *
 > - 제작 인원 : 개인
 > - 사용 에셋 : Kyle Robot, PUN2, UrbanNightSky
