@@ -18,6 +18,7 @@ public class StartManager : MonoBehaviour
 
     public InputField input_id;
     public InputField input_pw;
+    public Text StateText;
     private const string MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@peeper-wars.76mjqw0.mongodb.net/";
     private const string DB_NAME = "Main";
     private MongoClient mongoClient;
@@ -54,13 +55,29 @@ public class StartManager : MonoBehaviour
     }
 
     public void TryLogin() {
-        var users = db.GetCollection<BsonDocument>("Users");
-        var filter = Builders<BsonDocument>.Filter.Eq("name", input_id.text);
-        try {
-            var checkUser = users.Find(filter).First();
-        } catch {
-            Debug.Log("NO USER ! CHECK YOUR ID.");
+        if(input_id.text == "" || input_pw.text == "")
+        {
+            Debug.Log("INVALID INPUT !!");
             return;
         }
+
+        var users = db.GetCollection<BsonDocument>("Users");
+        var filter = Builders<BsonDocument>.Filter.Eq("name", input_id.text);
+
+        try {
+            var checkUser = users.Find(filter).First();
+            if(checkUser.GetValue("password") == input_pw.text)
+            {
+                Debug.Log("!! LOGIN SUCCEED !! MOVE TO PLAY SCENE");
+                SceneMove();
+            } else
+            {
+                Debug.Log("!! INVALID PASSWORD !!");
+                return;
+            }
+        } catch {
+            Debug.Log("!! LOGIN FAILED !!");
+            return;
+        }   
     }
 }
