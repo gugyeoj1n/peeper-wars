@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
+using Photon.Realtime;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -18,6 +22,11 @@ public class PlayerUI : MonoBehaviour
     float charControllerHeight = 0f;
     Transform targetTransform;
     Vector3 targetPosition;
+
+    private const string MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@peeper-wars.76mjqw0.mongodb.net/";
+    private const string DB_NAME = "Main";
+    private MongoClient mongoClient;
+    private IMongoDatabase db;
 
     #endregion
     // -----------------------------------------
@@ -78,9 +87,13 @@ public class PlayerUI : MonoBehaviour
             charControllerHeight = _charController.height;
         }
 
-        if(playerNameText != null) {
-            playerNameText.text = target.photonView.Owner.NickName;
-        }
+        mongoClient = new MongoClient(MONGO_URI);
+        db = mongoClient.GetDatabase(DB_NAME);
+        var users = db.GetCollection<BsonDocument>("Users");
+        var filter = Builders<BsonDocument>.Filter.Eq("name", PhotonNetwork.NickName);
+        var checkUser = users.Find(filter).First();
+
+        playerNameText.text = target.photonView.Owner.NickName + " - " + checkUser.GetValue("kill");
     }
 
     #endregion
