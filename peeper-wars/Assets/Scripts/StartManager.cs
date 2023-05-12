@@ -57,6 +57,7 @@ public class StartManager : MonoBehaviour
     public void TryLogin() {
         if(input_id.text == "" || input_pw.text == "")
         {
+            StateText.text = "Invalid input. Please check your ID or password.";
             Debug.Log("INVALID INPUT !!");
             return;
         }
@@ -72,12 +73,44 @@ public class StartManager : MonoBehaviour
                 SceneMove();
             } else
             {
+                StateText.text = "Password doesn't match.";
                 Debug.Log("!! INVALID PASSWORD !!");
                 return;
             }
         } catch {
+            StateText.text = "No matching ID exists.";
             Debug.Log("!! LOGIN FAILED !!");
             return;
         }   
+    }
+
+    public void TrySignUp()
+    {
+        if (input_id.text == "" || input_pw.text == "")
+        {
+            StateText.text = "Invalid input. Please check your ID or password.";
+            Debug.Log("INVALID INPUT !!");
+            return;
+        }
+
+        var users = db.GetCollection<BsonDocument>("Users");
+        var filter = Builders<BsonDocument>.Filter.Eq("name", input_id.text);
+
+        try
+        {
+            var checkUser = users.Find(filter).First();
+            StateText.text = "ID already exists. Please make other ID.";
+            return;
+        }
+        catch
+        {
+            StateText.text = "Account created. Now you can play!";
+            users.InsertOne(new BsonDocument
+            {
+                {"name", input_id.text},
+                {"password", input_pw.text},
+                {"kill", 0}
+            });
+        }
     }
 }
