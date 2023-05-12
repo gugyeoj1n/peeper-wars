@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
-using MongoDB.Driver;
-using MongoDB.Bson;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
@@ -18,20 +17,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     // -----------------------------------------
 
     // -----------------------------------------
-    #region MongoDB
-
-    private const string MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@peeper-wars.76mjqw0.mongodb.net/";
-    private const string DB_NAME = "Main";
-    private MongoClient mongoClient;
-    private IMongoDatabase db;
-
-    #endregion
-    // -----------------------------------------
-
-    // -----------------------------------------
     #region Private Fields
 
-    bool isConnecting;
     string gameVersion = "0.0.0";
 
     #endregion
@@ -47,6 +34,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField]
     private GameObject progressLabel;
 
+    public Text RoomInfoText;
+
     #endregion
     // -----------------------------------------
 
@@ -60,11 +49,12 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        progressLabel.SetActive(false);
-        controlPanel.SetActive(true);
+        progressLabel.SetActive(true);
+        controlPanel.SetActive(false);
 
-        mongoClient = new MongoClient(MONGO_URI);
-        db = mongoClient.GetDatabase(DB_NAME);
+        Debug.Log("Not connected to Photon Cloud. Now connect ...");
+        PhotonNetwork.GameVersion = gameVersion;
+        PhotonNetwork.ConnectUsingSettings();
     }
 
     #endregion
@@ -75,28 +65,10 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void Connect()
     {
-        var users = db.GetCollection<BsonDocument>("Users");
-
-        var userData = new BsonDocument
-        {
-            { "name", PhotonNetwork.NickName }
-        };
-        users.InsertOne(userData);
-
-        isConnecting = true;
         progressLabel.SetActive(true);
         controlPanel.SetActive(false);
-        if (!PhotonNetwork.IsConnected)
-        {
-            Debug.Log("Not connected to Photon Cloud. Now connect ...");
-            PhotonNetwork.GameVersion = gameVersion;
-            PhotonNetwork.ConnectUsingSettings();
-        }
-        else
-        {
-            Debug.Log("Already connected. Let's join in random room!");
-            PhotonNetwork.JoinRandomRoom();
-        }
+
+        PhotonNetwork.JoinRandomRoom();
     }
 
     #endregion
@@ -108,17 +80,22 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        if(isConnecting)
-        {
-            Debug.Log("OnConnectedToMaster() was called by PUN !");
-            PhotonNetwork.JoinRandomRoom();
-        }
+        Debug.Log("OnConnectedToMaster() was called by PUN !");
+        PhotonNetwork.JoinLobby();
+    }
+
+    public override void OnJoinedLobby()
+    {
+        Debug.Log("OnJoinedLobby() was called by PUN !");
+        progressLabel.SetActive(false);
+        controlPanel.SetActive(true);
     }
 
     public override void OnDisconnected(DisconnectCause cause)
     {
         progressLabel.SetActive(false);
         controlPanel.SetActive(true);
+
         Debug.LogWarningFormat("OnDisconnected() was called by PUN with reason {0}", cause);
     }
 
@@ -137,6 +114,11 @@ public class Launcher : MonoBehaviourPunCallbacks
             PhotonNetwork.LoadLevel("Room for 1");
         }
     }
+
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        RoomInfoText.text = roomList.Count + " Opened rooms";
+    } 
 
     #endregion
     // -----------------------------------------

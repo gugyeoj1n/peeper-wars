@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Misc;
 using MongoDB.Bson;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class StartManager : MonoBehaviour
 {
@@ -69,6 +71,7 @@ public class StartManager : MonoBehaviour
             var checkUser = users.Find(filter).First();
             if(checkUser.GetValue("password") == input_pw.text)
             {
+                PhotonNetwork.NickName = input_id.text;
                 Debug.Log("!! LOGIN SUCCEED !! MOVE TO PLAY SCENE");
                 SceneMove();
             } else
