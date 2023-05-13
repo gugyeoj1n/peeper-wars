@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             return;
         }
         Debug.LogFormat("PhotonNetwork : Loading Level {0}", PhotonNetwork.CurrentRoom.PlayerCount);
-        PhotonNetwork.LoadLevel("Room for " + PhotonNetwork.CurrentRoom.PlayerCount);
+        PhotonNetwork.LoadLevel("Room for 2");
     }
 
     #endregion
@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         SceneManager.LoadScene(1);
     }
 
-    public override void OnPlayerEnteredRoom(Player other)
+    /*public override void OnPlayerEnteredRoom(Player other)
     {
         Debug.LogFormat("OnPlayerEnteredRoom() {0}", other.NickName);
         if(PhotonNetwork.IsMasterClient)
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             Debug.LogFormat("OnPlayerLeftRoom() !! Master Client {0} !!", PhotonNetwork.IsMasterClient);
             LoadArena();
         }
-    }
+    }*/
 
     #endregion
     // -----------------------------------------

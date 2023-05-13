@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Photon.Pun;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -46,6 +48,13 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
     [SerializeField]
     private GameObject beams;
     bool isFiring;
+
+    GameObject _ui;
+
+    private const string MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@peeper-wars.76mjqw0.mongodb.net/";
+    private const string DB_NAME = "Main";
+    private MongoClient mongoClient;
+    private IMongoDatabase db;
 
     #endregion
     // -----------------------------------------
@@ -149,6 +158,7 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
         Health -= 0.1f * Time.deltaTime;
     }
 
+
 #if !UNITY_5_4_OR_NEWER
     void OnLevelWasLoaded(int level)
     {
@@ -162,7 +172,7 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
         {
             transform.position = new Vector3(0f, 5f, 0f);
         }
-        GameObject _ui = Instantiate(playerUIPrefab);
+        _ui = Instantiate(playerUIPrefab);
         _ui.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
     }
 
@@ -180,6 +190,7 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
             {
                 isFiring = true;
             }
+            photonView.RPC("messageTest", RpcTarget.All);
         }
 
         if(Input.GetButtonUp("Fire1"))
@@ -191,6 +202,22 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
         }
     }
 
+    [PunRPC]
+    void Attack(PhotonMessageInfo info)
+    {
+
+    }
+
+    [PunRPC]
+    void messageTest(PhotonMessageInfo info){
+        mongoClient = new MongoClient(MONGO_URI);
+        db = mongoClient.GetDatabase(DB_NAME);
+        var users = db.GetCollection<BsonDocument>("Users");
+        var filter = Builders<BsonDocument>.Filter.Eq("name", info.Sender.NickName);
+        var checkUser = users.Find(filter).First();
+        var update = Builders<BsonDocument>.Update.Set("kill", checkUser.GetValue("kill").ToDecimal() + 1);
+        users.UpdateOne(filter, update);
+    }
     #endregion
     // -----------------------------------------
 }

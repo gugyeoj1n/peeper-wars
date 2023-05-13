@@ -19,8 +19,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -1660,7 +1658,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 0982807d60fb3884d51d4baa9fdc156c
+      Hash: 1b1eaa49a495cb3568ca1d8a31a95904
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -2278,4 +2276,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Room for 2.unity
   - Assets/Scenes/Room for 3.unity
   - Assets/Scenes/Room for 4.unity
-  playerPath: "C:/Users/\uAD6C\uACA8\uC9D5/Desktop/test/Peeper Wars.exe"
+  playerPath: C:/Users/PC/Desktop/test/Peeper Wars.exe
