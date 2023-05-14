@@ -2178,7 +2178,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
+  playerUIPrefab: {fileID: 2973714925773997734, guid: 1dc1d79331948bf4c84c7dc772be926b, type: 3}
   beams: {fileID: 420625603}
+  dieText: {fileID: 7033591814995335277, guid: 318bb6bf02c3c444ba3572c3f8bc537e, type: 3}
 --- !u!114 &9132461128578293041
 MonoBehaviour:
   m_ObjectHideFlags: 0
