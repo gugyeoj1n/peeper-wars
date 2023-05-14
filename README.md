@@ -1,6 +1,6 @@
 * * *
 # PEEPER-WARS : stare to win
-### - Version 1.0.0-alpha
+### - Version 1.0.0
 ### made with Unity 2021 & PUN2 Realtime & MongoDB
 * * *
 > - 제작 인원 : 개인
